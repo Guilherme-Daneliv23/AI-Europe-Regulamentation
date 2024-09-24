@@ -1,0 +1,8 @@
+h1, h2, h3, h4  {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+p, li, a   {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}

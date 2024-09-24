@@ -1,0 +1,51 @@
+.overflow {
+    display: none;
+    position: fixed;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+}
+
+.pop-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 350px;
+}
+
+.pop-up__close {
+    font-size: 24px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #FF737D;
+    color: #fdfdfd;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.pop-up__img {
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    border-radius: 50%;
+    border: 3px solid #001C87;
+}
+
+.pop-up__opinion {
+    color: #001C87;
+    padding: 10px;
+    margin: 0 30px;
+}

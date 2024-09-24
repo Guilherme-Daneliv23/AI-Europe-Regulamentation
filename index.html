@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lei da IA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/generic.css">
+    <link rel="stylesheet" href="./assets/css/header/header.css">
+    <link rel="stylesheet" href="./assets/css/main/general.css">
+    <link rel="stylesheet" href="./assets/css/main/introduction.css">
+    <link rel="stylesheet" href="./assets/css/main/devlop.css">
+    <link rel="stylesheet" href="./assets/css/main/devlop-chat.css">
+    <link rel="stylesheet" href="./assets/css/main/work.css">
+    <link rel="stylesheet" href="./assets/css/main/pop-up.css">
+    <link rel="stylesheet" href="./assets/css/main/enterprise.css">
+    <link rel="stylesheet" href="./assets/css/main/culture.css">
+    <link rel="stylesheet" href="./assets/css/main/accessibility.css">
+    <link rel="stylesheet" href="./assets/css/footer/realization.css">
+</head>
+<body>
+    <header>
+        <section class="banner">
+            <h1 class="banner__title">LEI DA IA</h1>
+            <h1 class="banner__subtitle">UNIÃO EUROPEIA</h1>       
+        </section>
+    </header>
+
+    <main>
+        <section class="general introduction">
+            <h2 class="general__title introduction__title">O QUE É A INTELIGÊNCIA ARTIFICIAL?</h2>
+            <div class="general--align introduction-align">
+                <div class="general__video introduction__video">
+                    <div class="general__video--video introduction__video--video"></div>
+                    <h4 class="general__video--play introduction__video--play">Assista e descubra 
+                        mais sobre a IA</h4>
+                </div>
+                <div class="general__references introduction__references">
+                    <h4 class="general__references--title introduction__references--title">Artigo de referência</h4>
+                    <a class="general__references--article introduction__references--article" href="#">acesse o artigo aqui</a>
+                </div>
+            </div>
+            <div class="introduction__quiz">
+                <img src="./assets/img/line.svg" alt="">
+                <p class="introduction__quiz--question"></p>
+                <ul class="introduction__quiz--answers">
+                   
+                </ul>
+                <button onclick="submitAnswer()" class="introduction__quiz--button">Enviar</button>
+
+                <img class="introduction__quiz--img" src="" alt="">
+                <p class="introduction__quiz--feedback"></p>
+            </div>
+        </section>
+        <section class="general devlop">
+            <h2 class="general__title devlop__title">CAPACIDADE DE CONSTUÇÃO DE CÓDIGOS EM SEGUNDOS</h2>
+            <div class="general--align devlop--align">
+                <div class="general__video devlop__video">
+                    <div class="general__video--video devlop__video--video"></div>
+                    <h4 class="general__video--play devlop__video--play">Assista e descubra
+                        mais sobre a IA NO
+                        DESENVOLVIMENTO ÁGIL</h4>
+                </div>
+                <div class="general__references devlop__references">
+                    <h4 class="general__references--title devlop__references--title">Artigo de referência</h4>
+                    <a class="general__references--article devlop__references--article" href="#">acesse o artigo aqui</a>
+                </div>
+            </div>
+            <div class="devlop__example">
+                <img src="./assets/img/line2.svg">
+                <h3 class="devlop__example--title">Aqui vai um exemplo prático</h4>
+                <div class="devlop__example--examples">
+                    <div class="devlop__example--examples--chat">
+                        <h4 class="devlop__example--examples--title">Programado por IA</h4>
+                        <div class="light-off" id="light"></div>
+                        <button id="toggleButton">Acender a Luz</button>
+                    </div>
+                    <div class="devlop__example--examples--dev">
+                        <h4 class="devlop__example--examples--title">Programado por humano</h4>
+                        <div class="light-off-dev" id="light--dev"></div>
+                        <button onclick="controlLight()" class="toggleButton-dev" id="toggleButton--dev">Acender a Luz</button> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="general work">
+            <h2 class="general__title work__title">COMO É SE INSERIR NO MERCADO DE TRABALHO?</h2>
+            <div class="general--align work--align">
+                <div class="general__video work__video">
+                    <div class="general__video--video work__video--video"></div>
+                    <h4 class="general__video--play work__video--play">Assista e descubra 
+                        mais sobre O MERCADO
+                        DE TRABALHO</h4>
+                </div>
+                <div class="general__references work__references">
+                    <h4 class="general__references--title work__references--title">Artigo de referência</h4>
+                    <a class="general__references--article work__references--article" href="#">acesse o artigo aqui</a>
+                </div>
+            </div>
+            <div class="work__options">
+                <img src="./assets/img/line.svg" alt="">
+                <h3 class="work__options--title">a ia está presente em diversas áreas, Clique para interagir!</h3>
+                <ul class="work__options--list">
+                </ul>
+                <div class="overflow">
+                    <div class="pop-up">
+                        <img class="pop-up__img" src="" alt="">
+                        <p class="pop-up__opinion"></p>
+                        <button onclick="closePopUp()" class="pop-up__close">X</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="enterprise">
+            <h2 class="general__title enterprise__title">implementação de sistemas de ia NAS empresas</h2>
+            <div class="general--align enterprise--align">
+                <div class="general__video enterprise__video">
+                    <div class="general__video--video enterprise__video--video"></div>
+                    <h4 class="general__video--play enterprise__video--play">Assista e descubra
+                        os principais desafios
+                        na implementação</h4>
+                </div>
+                <div class="general__references enterprise__references">
+                    <h4 class="general__references--title enterprise__references--title">Artigo de referência</h4>
+                    <a class="general__references--article enterprise__references--article" href="#">acesse o artigo aqui</a>
+                </div>
+            </div>
+            <div class="enerprise__frame">
+                <img src="./assets/img/line2.svg" alt="">
+                <h3 class="enerprise__frame--title">Onde está a ia nas empresas?</h3>
+                <div class="enterprise__frame--frame">
+                    <ul class="enterprise__frame--frame--list">
+                    </ul>
+                    <div class="enterprise__frame--frame--content">
+                        <div class="enterprise__frame--frame--text">                        
+                        </div>
+                        <div class="enterprise__frame--frame--picture">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="culture">
+            <h2 class="general__title culture__title">A IA PODE SUPERAR SHAKESPEARE?</h2>
+            <div class="general--align culture--align">
+                <div class="general__video culture__video">
+                    <div class="general__video--video culture__video--video"></div>
+                    <h4 class="general__video--play culture__video--play">Assista e descubra 
+                        mais sobre a ia
+                        inserida na arte</h4>
+                </div>
+                <div class="general__references culture__references">
+                    <h4 class="general__references--title culture__references--title">Artigo de referência</h4>
+                    <a class="general__references--article culture__references--article" href="#">acesse o artigo aqui</a>
+                </div>
+            </div>
+            <div class="culture__tesk">
+                <img src="./assets/img/line.svg" alt="">
+                <h3 class="culture__tesk--title">Teste sua percepção: qual imagem não foi gerada por uma ia?</h3>
+                <div class="culture__tesk--align">
+                    <ul class="culture__tesk--list">
+                    
+                    </ul>
+                    <div class="culture__tesk--feedback">
+                        <img class="culture__tesk--feedback--image" src="" alt="">
+                        <p class="culture__tesk--feedback--paragraph"></p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="accessibility">
+            <h2 class="general__title accessibility__title">acessibilidade e regulamentação: como é lá fora?</h2>
+            <div class="general--align accessibility--align">
+                <div class="general__video accessibility__video">
+                    <div class="general__video--video accessibility__video--video"></div>
+                    <h4 class="general__video--play accessibility__video--play">Assista e descubra 
+                        mais sobre acessibilidade
+                        e sua regulamentação</h4>
+                </div>
+
+                <div class="accessbility__person">
+                    <img class="accessbility__person--img" src="./assets/img/accessibility/mauricio.png" alt="">
+                    <h4 class="accessbility__person--title">MAURÍCIO FONTANA DE VARGAS</h4>
+                    <p class="accessbility__person--paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, optio eius facere quasi fugit hic, praesentium sapiente cumque eveniet repellat a. Voluptatum maiores quos alias magnam ut molestias eos adipisci!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="realization">
+            <h2 class="general__title realization__title">REALIZADO POR</h2>
+            <div class="realization__align--people">
+                <div class="realization__people">
+                    <img class="realization__people--img" src="./assets/img/footer/gui.png" alt="">
+                    <div class="realization__people__align--link">
+                        <a class="realization__people--link" href="">Instagram</a>
+                        <a class="realization__people--link" href="">LinkedIn</a>
+                        <a class="realization__people--link" href="">GitHub</a>
+                    </div>              
+                </div>
+                <div class="realization__people">
+                    <img class="realization__people--img" src="./assets/img/footer/rani.png" alt="">
+                    <div class="realization__people__align--link">
+                        <a class="realization__people--link" href="">Instagram</a>
+                        <a class="realization__people--link" href="">LinkedIn</a>
+                        <a class="realization__people--link" href="">GitHub</a>
+                    </div> 
+                </div>
+                <div class="realization__people">
+                    <img class="realization__people--img" src="./assets/img/footer/alice.png" alt="">
+                    <div class="realization__people__align--link">
+                        <a class="realization__people--link" href="">Instagram</a>
+                        <a class="realization__people--link" href="">LinkedIn</a>
+                        <a class="realization__people--link" href="">GitHub</a>
+                    </div> 
+                </div>
+                <div class="realization__people">
+                    <img class="realization__people--img" src="./assets/img/footer/maria.png" alt="">
+                    <div class="realization__people__align--link">
+                        <a class="realization__people--link" href="">Instagram</a>
+                        <a class="realization__people--link" href="">LinkedIn</a>
+                        <a class="realization__people--link" href="">GitHub</a>
+                    </div> 
+                </div>
+                <div class="realization__people">
+                    <img class="realization__people--img" src="./assets/img/footer/mateus.png" alt="">
+                    <div class="realization__people__align--link">
+                        <a class="realization__people--link" href="">Instagram</a>
+                        <a class="realization__people--link" href="">LinkedIn</a>
+                        <a class="realization__people--link" href="">GitHub</a>
+                    </div> 
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="./assets/js/introduction.js"></script> 
+    <script src="./assets/js/devlop-chat.js"></script>
+    <script src="./assets/js/work.js"></script>
+    <script src="./assets/js/enterprise.js"></script>
+    <script src="./assets/js/culture.js"></script>
+    
+    
+</body>
+</html>

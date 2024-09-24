@@ -1,0 +1,122 @@
+.devlop{
+    background-color: #001C87;
+    margin-top: 40px;
+    padding: 40px 30px;
+}
+
+.devlop__title  {
+    text-align: end;
+    color: #FFE500;
+}
+
+.devlop__video--play    {
+    color: #fdfdfd;
+}
+
+.devlop__video--video   {
+    background-color: #fdfdfd;
+}
+
+.devlop__references  {
+    color:#fdfdfd;
+    align-items: center;
+}
+
+.devlop__references--title  {
+    color:#fdfdfd;
+}
+
+.devlop__references--article    {
+    color: #fdfdfd;
+}
+
+.devlop__example    {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.devlop__example--title {
+    font-size: 24px;
+    margin-top: 15px;
+    color: #fdfdfd;
+}
+
+.devlop__example--examples  {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 20px 30px;
+}
+
+.devlop__example--examples--dev {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.devlop__example--examples--title   {
+    font-size: 20px;
+    color: #fdfdfd;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+.light-off-dev {
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+  
+.light-on {
+    background-color: yellow;
+    box-shadow: 0 0 20px yellow;
+}
+  
+.toggleButton-dev {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 922px)    {
+    .devlop{
+        padding: 40px 100px;
+    }
+
+    .devlop--align   {
+        flex-direction: row-reverse;
+    }
+    
+    .devlop__video  {
+        flex-direction: row-reverse;
+        align-items: end;
+    }
+
+    .devlop__video--play    {
+        margin-right: 12px;
+        text-align: right;
+    }
+
+    .devlop__references  {
+        color:#fdfdfd;
+        align-items: start;
+    }
+
+    .devlop__example--title {
+        font-size: 30px;
+        margin-top: 25px;
+    }
+
+    .devlop__example--examples  {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}

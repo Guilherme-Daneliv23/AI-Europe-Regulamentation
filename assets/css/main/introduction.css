@@ -1,0 +1,66 @@
+.introduction  {
+    margin: 40px 30px;
+}
+.introduction__title    {
+    color: #001C87;
+}
+
+.introduction__quiz {
+    margin-top: 30px;
+}
+
+.introduction__quiz--question   {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 24px;
+}
+
+.introduction__quiz--answer {
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.introduction__quiz--button {
+    width: 90px;
+    height: 35px;
+    margin-top: 20px;
+    background-color: #001C87;
+    color: #fdfdfd;
+}
+
+.introduction__quiz--img    {
+    display: none;
+    margin: 20px 0px;
+    width: 180px;
+}
+
+.introduction__quiz--feedback   {
+    text-align: justify;
+    font-size: 14px;
+}
+
+@media screen and (min-width: 922px)    {
+    .introduction  {
+        margin: 40px 100px;
+    }
+
+    .introduction__video--play  {
+        margin-left: 12px;
+        text-align: left;
+    }
+
+    .introduction__references   {
+        align-items: end;
+    }
+
+    .introduction__quiz--question   {
+        font-size: 30px;
+    }
+
+    .introduction__quiz--answer {
+        font-size: 18px;
+    }
+
+    .introduction__quiz--feedback   {
+        font-size: 18px;
+    }
+}
