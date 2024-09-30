@@ -1,22 +1,22 @@
 const task = [
     {
-        img: "./assets/img/culture/paisagem01.jpg",
-        feedback: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique illo optio in asperiores velit, totam beatae, quos commodi quibusdam sunt ipsum odio, deleniti porro iste architecto nostrum neque magni autem.",
-        feedbackImage: "./assets/img/introduction/wrong.png"
-    },
-    {
-        img: "./assets/img/culture/paisagem02.jpg",
-        feedback: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique illo optio in asperiores velit, totam beatae, quos commodi quibusdam sunt ipsum odio, deleniti porro iste architecto nostrum neque magni autem.",
-        feedbackImage: "./assets/img/introduction/wrong.png"
-    },
-    {
-        img: "./assets/img/culture/paisagem03.jpg",
-        feedback: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique illo optio in asperiores velit, totam beatae, quos commodi quibusdam sunt ipsum odio, deleniti porro iste architecto nostrum neque magni autem.",
+        img: "./assets/img/culture/PraiaIAFirefly.jpg",
+        feedback: "Parabéns, você acertou!! Esta imagem foi gerada por Inteligência Artificial, por meio do Adobe Firefly! Seus olhos estão aptos a reconhecer uma imagem gerada por IA!",
         feedbackImage: "./assets/img/introduction/hit.png"
     },
     {
-        img: "./assets/img/culture/paisagem04.jpg",
-        feedback: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique illo optio in asperiores velit, totam beatae, quos commodi quibusdam sunt ipsum odio, deleniti porro iste architecto nostrum neque magni autem.",
+        img: "./assets/img/culture/Suiça.webp",
+        feedback: "Que pena, você errou... Esta imagem não foi gerada por Inteligência Artificial. Esta é uma captura feita em Lauterbrunnen, na Suíça!",
+        feedbackImage: "./assets/img/introduction/wrong.png"
+    },
+    {
+        img: "./assets/img/culture/AuroraBoreal.jpg",
+        feedback: "Que pena, você errou... Esta imagem não foi gerada por Inteligência Artificial. Esta é uma captura da Aurora Boreal, em Lofoten, na Noruega!",
+        feedbackImage: "./assets/img/introduction/wrong.png"
+    },
+    {
+        img: "./assets/img/culture/Filipinas.jpeg",
+        feedback: "Que pena, você errou... Esta imagem não foi gerada por Inteligência Artificial. Esta é uma captura feita em El Nido, nas Filipinas!",
         feedbackImage: "./assets/img/introduction/wrong.png"
     }   
 ]

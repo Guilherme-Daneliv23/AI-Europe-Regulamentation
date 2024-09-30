@@ -50,6 +50,7 @@
 .culture__task--list--img  {
     width: 140px;
     height: 140px;
+    object-fit: cover;
 }
 
 .culture__task--list--img:hover{

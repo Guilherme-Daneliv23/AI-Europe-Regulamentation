@@ -1,0 +1,24 @@
+.credits    {
+    margin: 40px 30px;
+}
+
+.credits__title {
+    color: #001C87;
+}
+
+.credits__video {
+    width: 100%;
+    height: 250px;
+    background-color: #222222;
+}
+
+@media screen and (min-width: 922px)    {
+    .credits    {
+        margin: 40px 100px;
+    }
+
+    .credits__video {
+        width: 630px;
+        height: 350px;
+    }
+}

@@ -9,7 +9,13 @@ const quiz = [
             E: "Um sistema que consegue ler pensamentos."
         },
         correctAnswer: "C",
-        feedback: "Aqui vai o texto explicando um pouco sobre o porque essa questão está certa. Como faremos o texto? Da forma como bons alunos fazem textos para a faculdade, da forma que revolucionou a programação e encantou desde os mais sábios seniors aos mais ingênuos juniors, da forma mais inteligênte (e preguiçosa) possível. Com ele, nosso querido. Chat GPT.",
+        feedback: {
+            A: "Você errou... A inteligência Artificial ainda não é capaz de adivinhar senhas baseando-se no humor do usuário. Espero que ela não adivinhe as nossas senhas...",
+            B: "você errou... A inteligência Artificial ainda não é capaz de fazer máquinas entenderem sentimentos assistindo novelas. Será que um dia ela será capaz de entender completamente os sentimentos humanos? Nem nós entendemos...",
+            C: "Isso mesmo! Inteligência Artificial (IA) é um ramo da ciência da computação que se propõe a elaborar dispositivos que simulem a capacidade humana de raciocinar, perceber, tomar decisões e resolver problemas.",
+            D: "Você errou... A inteligência Artificial ainda não é capaz de ensinar máquinas a escrever poesias que rimam com palavras inventadas. No entanto, ela pode gerar poesias para você, mas tome cuidado com os direitos autorais!",
+            E: "Você errou... A inteligência Artificial ainda não é capaz de ler pensamentos, que assustador seria se ela fosse."
+        },
         imagemCorreto: "./assets/img/introduction/hit.png",
         imagemIncorreto: "./assets/img/introduction/wrong.png",
         
@@ -42,11 +48,12 @@ function submitAnswer() {
     const options = document.querySelectorAll('.introduction__quiz--answer');
 
     if (selectedAnswer) {
+        const feedbackLetter = selectedAnswer.value;
         if (selectedAnswer.value === quiz[currentQuestionIndex].correctAnswer) {
-            feedback.innerHTML = currentQuestion.feedback;
+            feedback.innerHTML = currentQuestion.feedback.C;
             imagem.src = currentQuestion.imagemCorreto;
         } else {
-            feedback.innerHTML = currentQuestion.feedback;
+            feedback.innerHTML = currentQuestion.feedback[feedbackLetter];
             imagem.src = currentQuestion.imagemIncorreto;
         }
         options.forEach(element => {
