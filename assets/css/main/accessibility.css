@@ -28,16 +28,17 @@
 
 .accessibility__video--video   {
     background-color: #fdfdfd;
-    width: 315px;
-    height: 200px;
+    width: 280px;
+    height: 450px;
 }
 
 .accessbility__person   {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 300px;
+    width: 100%;
     margin-top: 40px;
+    
 }
 
 .accessbility__person--img  {
@@ -75,17 +76,18 @@
     }
 
     .accessibility__video--video   {
-        width: 650px;
-        height: 380px;
+        width: 350px;
+        height: 500px;
     }
 
     .accessibility__video--play    {
         text-align: right;
-        width: 650px;
+        width: 350px;
     }
 
     .accessbility__person   {
         margin-top: 0;
+        margin-right: 100px;
     }
 
     .accessbility__person--title    {

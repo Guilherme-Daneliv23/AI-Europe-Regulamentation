@@ -10,11 +10,11 @@ const quiz = [
         },
         correctAnswer: "C",
         feedback: {
-            A: "Você errou... A inteligência Artificial ainda não é capaz de adivinhar senhas baseando-se no humor do usuário. Espero que ela não adivinhe as nossas senhas...",
-            B: "você errou... A inteligência Artificial ainda não é capaz de fazer máquinas entenderem sentimentos assistindo novelas. Será que um dia ela será capaz de entender completamente os sentimentos humanos? Nem nós entendemos...",
+            A: "Você errou... A Inteligência Artificial ainda não é capaz de adivinhar senhas baseando-se no humor do usuário. Espero que ela não adivinhe as nossas senhas...",
+            B: "Você errou... A Inteligência Artificial ainda não é capaz de fazer máquinas entenderem sentimentos assistindo novelas. Será que um dia ela será capaz de entender completamente os sentimentos humanos? Nem nós entendemos...",
             C: "Isso mesmo! Inteligência Artificial (IA) é um ramo da ciência da computação que se propõe a elaborar dispositivos que simulem a capacidade humana de raciocinar, perceber, tomar decisões e resolver problemas.",
-            D: "Você errou... A inteligência Artificial ainda não é capaz de ensinar máquinas a escrever poesias que rimam com palavras inventadas. No entanto, ela pode gerar poesias para você, mas tome cuidado com os direitos autorais!",
-            E: "Você errou... A inteligência Artificial ainda não é capaz de ler pensamentos, que assustador seria se ela fosse."
+            D: "Você errou... A Inteligência Artificial ainda não é capaz de ensinar máquinas a escrever poesias que rimam com palavras inventadas. No entanto, ela pode gerar poesias para você, mas tome cuidado com os direitos autorais!",
+            E: "Você errou... A Inteligência Artificial ainda não é capaz de ler pensamentos, que assustador seria se ela fosse."
         },
         imagemCorreto: "./assets/img/introduction/hit.png",
         imagemIncorreto: "./assets/img/introduction/wrong.png",

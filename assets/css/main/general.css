@@ -27,7 +27,6 @@
 .general__video--video  {
     width: 300px;
     height: 170px;
-    background-color: #222222;
 }
 
 .general__references    {
@@ -71,7 +70,6 @@
     .general__video--video  {
         width: 450px;
         height: 250px;
-        background-color: #222222;
     }
 
     .general__references    {

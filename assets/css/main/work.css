@@ -6,6 +6,12 @@
     color: #001C87;
 }
 
+.work__options--paragraph   {
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
 .work__options  {
     margin-top: 30px;
 }
@@ -47,6 +53,7 @@
 
     .work__video--play  {
         margin-left: 12px;
+        text-align: left;
     }
 
     .work__references   {

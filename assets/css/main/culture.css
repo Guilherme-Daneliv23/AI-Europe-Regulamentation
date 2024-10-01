@@ -64,11 +64,17 @@
 
 .culture__tesk--list--options   {
     margin: 20px 0;
+    width: 140px;
+    height: 140px;
 }
 
 @media screen and (min-width: 922px)    {
     .culture  {
         margin: 40px 100px;
+    }
+
+    .culture__video--play   {
+        text-align: left;
     }
 
     .culture__references   {
@@ -87,6 +93,8 @@
 
     .culture__tesk--list--options   {
         margin: 0 0;
+        width: auto;
+        height: auto;
     }
 
     .culture__tesk--align   {

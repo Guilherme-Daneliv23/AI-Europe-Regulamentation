@@ -5,7 +5,7 @@ const subjects = [
         title: "Atendimento",
         content: {
             A: "Escalar o atendimento e melhorar a experiência são apenas dois dos benefícios do uso da inteligência artificial no atendimento ao cliente.",
-            B: "A verdade é que a IA oferece uma série de vantagens, como chatbots e assistentesvirtuais, análise de sentimentos, automação de tarefas, recomendaçõespersonalizadas, assistência a atendentes, previsão de necessidades, etc.",
+            B: "A verdade é que a IA oferece uma série de vantagens, como chatbots e assistentes  virtuais, análise de sentimentos, automação de tarefas, recomendações personalizadas, assistência a atendentes, previsão de necessidades, etc.",
             C: "Essas aplicações podem melhorar tanto a eficiência operacional quanto a experiência do cliente, oferecendo um suporte mais ágil e personalizado. Isso sem contar os benefícios diversos para as empresas, que ampliam a capacidade de atender inúmeros clientes, com menos custos e mais eficiência, sem depender de agentes humanos para resolver os casos mais simples."
         },
         image: "./assets/img/enterprise/atendimento.jpeg"

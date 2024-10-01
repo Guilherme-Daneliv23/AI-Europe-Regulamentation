@@ -21,10 +21,6 @@
     color: #fdfdfd;
 }
 
-.enterprise__video--video   {
-    background-color: #fdfdfd;
-}
-
 .enterprise__references--title  {
     color:#fdfdfd;
 }
@@ -43,6 +39,7 @@
 .enerprise__frame--title    {
     font-size: 30px;
     color: #fdfdfd;
+    margin-top: 10px;
 }
 
 .enterprise__frame--frame   {
@@ -103,7 +100,7 @@
 
 .enterprise__frame--frame--paragraph    {
     margin: 15px 10px; 
-    text-align: center;
+    text-align: justify;
 }
 
 .enterprise__frame--frame--picture  {

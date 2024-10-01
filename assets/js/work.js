@@ -34,7 +34,7 @@ const opinions = [
     {
         id: 4,
         name: "Nicolas Prado", 
-        description: "3º ano de Engenharia de Software",
+        description: "2º ano de Engenharia de Software",
         opinion: "Em primeira instância, é importante lembrar que esses desafios já são enormes por diversos motivos, seja pela falta de experiência ou pela baixa confiança das empresas em profissionais recém-formados. No que diz respeito à inteligência artificial, gosto de pensar nela como uma faca de dois gumes. Ao mesmo tempo em que cria novos empregos com a crescente evolução da IA — pois, certamente, quanto mais avanços, mais campos de estudo e atuação surgem —, também aumenta o receio em relação às capacidades cada vez maiores dessa tecnologia, o que poderia deixar a mão de obra iniciante 'para trás'. Acredito que, no cenário atual, por experiência própria, esse é o menor dos problemas, comparado aos que salientei anteriormente. Muito pelo contrário, na verdade, IAs como o ChatGPT são extremamente úteis para o aprendizado e apoio no trabalho. Assim, os graduandos que utilizam devidamente essas ferramentas tornam-se ainda mais eficientes e capazes no mercado. Entretanto, certamente, em um futuro próximo, isso será algo em pauta, visto que a IA está se tornando cada vez mais afiada, capaz e popular na resolução de problemas. Isso poderia, sim, mesmo que indiretamente, reduzir algumas vagas de base, com baixos requisitos técnicos, como as de estagiários, por exemplo.",
         image: "./assets/img/work/prado.png"
     },
