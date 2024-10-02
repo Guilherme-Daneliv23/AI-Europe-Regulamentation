@@ -40,6 +40,11 @@
     object-fit: cover;
 }
 
+.work__options--list--img:hover    {
+    cursor: pointer;
+    opacity: 90%;
+}
+
 .work__options--list--button {
     border-radius: 50%;
     width: 70px;

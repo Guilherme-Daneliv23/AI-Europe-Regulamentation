@@ -22,6 +22,7 @@
     letter-spacing: 3px;
     text-align: center;
     width: 300px;
+    margin-top: 5px;
 }
 
 .general__video--video  {
@@ -60,6 +61,7 @@
     .general__video--play   {
         font-size: 25px;
         width: 230px;
+        margin-top: 0;
     }
 
     .general__video {

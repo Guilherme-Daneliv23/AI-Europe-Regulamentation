@@ -65,10 +65,10 @@ const opinions = [
 
     {
         id: 8,
-        name: "Taís",
+        name: "Thais Brecailo",
         description: "5º ano de Engenharia de Software",
-        opinion: "É a capacidade de máquinas executarem tarefas como aprendizado, reconhecimento de padrões e tomada de decisões, imitando a inteligência humana.",
-        image: "./assets/img/work/gui.jpeg"
+        opinion: "Acredito que um dos grandes desafios seja a falta de experiência, o que dificulta demonstrar as habilidades. Muitas empresas buscam pessoas que entendam não apenas o conceito, mas que já saibam executar na prática. Muitas vezes, os graduandos gostariam de trabalhar com isso, mas não tiveram oportunidades para aplicar esses conhecimentos. Além disso, a IA vem evoluindo cada vez mais rápido, o que torna ainda mais difícil acompanhar esse desenvolvimento.",
+        image: "./assets/img/work/thais.png"
     }
 ]
 
