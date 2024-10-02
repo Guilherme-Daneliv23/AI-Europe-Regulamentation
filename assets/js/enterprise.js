@@ -57,6 +57,31 @@ const subjects = [
 ]
 
 const buttons = document.querySelector(".enterprise__frame--frame--list");
+const picture = document.querySelector(".enterprise__frame--frame--picture");
+const text = document.querySelector(".enterprise__frame--frame--text");
+
+
+function standard() {
+    const firstButton = document.querySelector(".enterprise__frame--frame--button");
+    firstButton.classList.add('enterprise__frame--frame--button--dif');
+    const title = document.createElement('h4');
+    title.classList.add('enterprise__frame--frame--title');
+    title.innerHTML = subjects[0].title;
+    text.appendChild(title);
+
+    const contentValues = Object.values(subjects[0].content);
+    for(let i = 0; i < contentValues.length; i++)  {
+        const paragraph = document.createElement('p');
+        paragraph.classList.add('enterprise__frame--frame--paragraph');
+        paragraph.innerHTML = contentValues[i];
+        text.appendChild(paragraph);
+    }
+
+    const image = document.createElement('img');
+    image.classList.add('enterprise__frame--frame--image');
+    image.src = subjects[0].image;
+    picture.appendChild(image);
+}
 
 function createSubjects()    {
     let currentSubject;
@@ -72,11 +97,13 @@ function createSubjects()    {
 let lastButtonPress
 
 function assignContent(event)    {
-    const picture = document.querySelector(".enterprise__frame--frame--picture");
-    const text = document.querySelector(".enterprise__frame--frame--text");
-
+    const firstButton = document.querySelector(".enterprise__frame--frame--button");
     if (lastButtonPress) {
         lastButtonPress.classList.remove('enterprise__frame--frame--button--dif');
+    }
+
+    if (firstButton)    {
+        firstButton.classList.remove('enterprise__frame--frame--button--dif');
     }
 
     picture.innerHTML = '';
@@ -108,3 +135,4 @@ function assignContent(event)    {
 }
 
 createSubjects();
+standard();
